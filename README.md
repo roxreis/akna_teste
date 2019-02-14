@@ -26,22 +26,22 @@ informações em um caderno e ainda por cima lembrar de realizar o
 envio manualmente para os diretores da escola.
 
 Decidindo mudar esse fluxo e o trabalho manual desnecessário, a
-diretora da escola fez a contratação de um programador PHP para
-a automatização desse processo, mas em pequenos passos para
+diretora da escola fez a contratação de um **programador PHP para
+a automatização desse processo**, mas em pequenos passos para
 testar a qualidade da mudança.
 
 ## Passo 1 - Gerar Arquivo CSV
-O programador terá um arquivo com as listas de alimentos
-criadas (**lista-de-compras.php**) com todos os dados
-preenchidos que retorna uma estrutura de Array.
+**O programador terá um arquivo com as listas de alimentos
+criadas (lista-de-compras.php) com todos os dados
+preenchidos que retorna uma estrutura de Array.**
 
-Baseado nessa lista, ele criará outro script .php que faz a leitura do
-arquivo **lista-de-compras.php**, onde o resultado final será a
-geração de um arquivo .csv salvo na pasta com o nome **compras-do-ano.csv**.
+Baseado nessa lista, ele criará outro script .php que **faz a leitura do
+arquivo lista-de-compras.php, onde o resultado final será a
+geração de um arquivo .csv** salvo na pasta com o nome **compras-do-ano.csv**.
 
 O resultado final desse arquivo deve seguir a mesma estrututa do
-exemplo abaixo, levando em consideração os dados
-contidos na nossa lista de alimentos (**lista-de-compras.php**):
+exemplo abaixo (a tabela), levando em consideração os dados
+contidos na nossa lista de alimentos (lista-de-compras.php):
 
 |Mês|Categoria|Produto|Quantidade|
 |-|-|-|-|
@@ -54,26 +54,26 @@ contidos na nossa lista de alimentos (**lista-de-compras.php**):
 |Março|Alimentos|Ovos|300|
 
 Para a geração desse csv o programador tem que seguir algumas
-**regras**, que são:
+regras, que são:
 
-* **O arquivo criado tem que ser ordenador de acordo com a ordem
-natural dos meses**:
+* O arquivo criado tem que ser ordenador de acordo com a ordem
+natural dos meses:
     * Janeiro
     * Fevereiro
     * Março
     * (etc)
 
-* **Respeitando a ordenação dos meses, o programador tem que
-salvar os produtos no arquivo ordenados pelas categorias**:
+* Respeitando a ordenação dos meses, o programador tem que
+salvar os produtos no arquivo ordenados pelas categorias:
     1. Alimentos
     2. Higiene Pessoal
     3. Limpeza
 
-* **Respeitando as duas ordenações anteriores, o programador tem
-que salvar os produtos no arquivo ordenados da maior quantidade para a menor.**
+* Respeitando as duas ordenações anteriores, o programador tem
+que salvar os produtos no arquivo ordenados da maior quantidade para a menor.
 
-* **O(s) mes(es) com conteúdo vazio não devem estar presentes no
-csv.**
+* O(s) mes(es) com conteúdo vazio não devem estar presentes no
+csv.
 
 Exemplo de ordenação:
 
@@ -87,8 +87,8 @@ Exemplo de ordenação:
 |Janeiro|Limpeza|Detergente|4|
 |Janeiro|Limpeza|Sabão em pó|3|
 
-* **Algumas palavras no Array estão incorretas, antes de salvar no
-arquivo é necessário substitui-las**:
+* Algumas palavras no Array estão incorretas, antes de salvar no
+arquivo é necessário substitui-las:
 
 |Trocar de (palavra errada)|Por (palavra correta)|
 |-|-|
