@@ -6,10 +6,9 @@
 2. Utilize o aquivo "lista-de-compras.php" como estrutura de dados.
 3. Seu teste deve ser executável via linha de comando.
 4. Seu teste deve conter um arquivo .sql que crie o banco de dados e todas as tabelas necessárias.
-5. A partir do momento que você criou o fork do repositório você tem até 24h para criar um pullrequest
-6. Você deve usar a versão 7.2 do PHP.
-7. Você deve usar a versão 5.5 do MySQL.
-8. Você pode usar o framework Laravel ou fazer apenas com PHP puro.
+5. Você deve usar a versão 7.2 do PHP.
+6. Você deve usar a versão 5.5 do MySQL.
+7. Você pode usar o framework Laravel ou fazer apenas com PHP puro.
 
 # O teste
 
