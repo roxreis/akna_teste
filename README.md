@@ -9,6 +9,7 @@
 5. Você deve usar a versão 7.2 do PHP.
 6. Você deve usar a versão 5.5 do MySQL.
 7. Você pode usar o framework Laravel ou fazer apenas com PHP puro.
+8. Você deve fazer um Pull Request para esse repositório para entregar o teste
 
 # O teste
 
