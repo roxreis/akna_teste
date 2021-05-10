@@ -1,0 +1,47 @@
+Mês,Categoria,Produto,Quantidade
+janeiro,alimentos,"Pão de forma",100
+janeiro,alimentos,Nutella,50
+janeiro,alimentos,Arroz,200
+janeiro,alimentos,Feijão,150
+Janeiro,limpeza,"Veja multiuso",50
+Janeiro,limpeza,"Sabão em pó",50
+Janeiro,limpeza,Desinfetante,100
+Janeiro,higiene_pessoal,"Creme dental",500
+Janeiro,higiene_pessoal,"Sabonete Protex",500
+Janeiro,higiene_pessoal,"Escova de dente",500
+Janeiro,higiene_pessoal,"Papel Higiênico",1000
+marco,alimentos,Ovos,1200
+marco,alimentos,Iogurte,500
+marco,alimentos,"Pasta de Amendoim",500
+Marco,limpeza,Detergente,100
+Marco,limpeza,"Sabão em pó",100
+Marco,higiene_pessoal,"Enxaguante bocal",500
+maio,alimentos,Brócolis,1000
+maio,alimentos,Tomate,1000
+maio,alimentos,Morango,10001
+maio,alimentos,Berinjela,100
+maio,alimentos,Pepino,100
+maio,alimentos,"Arroz integral",500
+maio,alimentos,Feijão,500
+maio,alimentos,"Filé de frango",500
+maio,alimentos,"Leite desnatado",2000
+Maio,limpeza,"Diabo verde",100
+Maio,limpeza,MOP,100
+Maio,higiene_pessoal,Protex,500
+Maio,higiene_pessoal,"Papel Higiênico",500
+Maio,higiene_pessoal,Shampoo,500
+fevereiro,alimentos,"Pão de forma",50
+fevereiro,alimentos,"Queijo minas",50
+fevereiro,alimentos,"Geléria de morango",250
+Fevereiro,limpeza,"Pano de chão",300
+Fevereiro,limpeza,Rodo,301
+Fevereiro,higiene_pessoal,"Creme dental",500
+Fevereiro,higiene_pessoal,"Sabonete Dove",500
+Fevereiro,higiene_pessoal,"Papel Higiênico",1000
+abril,alimentos,Doritos,50
+abril,alimentos,"Chocolate ao leite",100
+abril,alimentos,"Filé Mignon",350
+Abril,limpeza,"Esponja de aço",100
+Abril,higiene_pessoal,"Fio dental",500
+Abril,higiene_pessoal,"Escova de dente",500
+Abril,higiene_pessoal,"Creme dental",500
