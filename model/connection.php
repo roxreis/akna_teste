@@ -23,12 +23,12 @@ function salvaSql(array $lista)
   ];
  
   foreach ($lista as $me => $meses) {
-    $stmt = $conn->prepare("INSERT INTO lista_compra (mes) VALUES ('$me')");
+    $stmt = $conn->prepare("INSERT INTO lista_compras (mes) VALUES ('$me')");
     $stmt->execute();
     
     foreach($meses as $cat => $categoria){
       $cat = str_replace("_", " ", $cat);
-      $stmt = $conn->prepare("INSERT INTO lista_compra (categoria) VALUES ('$cat')");
+      $stmt = $conn->prepare("INSERT INTO lista_compras (categoria) VALUES ('$cat')");
       $stmt->execute();
 
       foreach($categoria as $prod => $quantidade){
@@ -36,7 +36,7 @@ function salvaSql(array $lista)
         if (array_key_exists($prod, $corrigePalavras)) {
           return $prod = $corrigePalavras[$prod];
         }
-        $stmt = $conn->prepare("INSERT INTO lista_compra (produto, quantidade) VALUES ('$prod', '$quantidade')");
+        $stmt = $conn->prepare("INSERT INTO lista_compras (produto, quantidade) VALUES ('$prod', '$quantidade')");
         $stmt->execute();
 
       }
